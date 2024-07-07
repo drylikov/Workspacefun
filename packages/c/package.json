@@ -1,0 +1,13 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "files": [
+    "index.ts"
+  ],
+  "type": "module",
+  "dependencies": {
+    "b": "workspace:b",
+    "c": "workspace:c"
+  }
+}

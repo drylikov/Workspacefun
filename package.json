@@ -1,0 +1,11 @@
+{
+  "name": "workspace",
+  "module": "index.ts",
+  "scripts": {
+    "clean": "rm bun.lockb && rm -rf node_modules && rm -rf packages/*/node_modules"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ]
+}
